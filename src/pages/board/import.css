@@ -1,0 +1,62 @@
+.Post {
+  background-color: white;
+  color: black;
+   font-size: 20pt;
+   text-align: center;
+ }
+ 
+ .container {
+   
+   margin: 0 auto;
+   width: 80%;
+   border: 1px solid #3333;
+   padding: 10px 0 30px 0;
+   border-radius: 5px;
+   margin-bottom : 50px;
+ }
+ 
+ .form-wrapper{
+   color: black;
+   width: 60%;
+   margin: 0 auto;
+ }
+ 
+ .title-input {
+  font-size: 15pt;
+   color: black;
+   width: 500px;
+   height: 40px;
+   margin: 10px;
+ }
+ 
+ .submit-button {
+    display:flex; 
+   color:white;
+   width: 200px;
+   height: 50px;
+   border: 2px solid #34495e;
+   justify-content: center;
+   float: left;
+   align-items: center;
+   background: black;
+   font-size: 25pt;
+   position: relative;
+   box-sizing: border-box;
+   overflow: hidden;
+   padding: 0.2rem 0 0.2rem 0;
+   margin-left: 50rem;
+   margin-bottom: 10rem;
+   margin-inline-end: 100rem;
+   margin-top: 10rem;
+   
+   border-radius: 5px;
+   
+   vertical-align: middle;
+   
+ }
+ 
+ .ck.ck-editor__editable:not(.ck-editor__nested-editable) {
+   min-height: 500px;
+   color: black;
+ }
+ 

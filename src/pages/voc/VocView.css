@@ -1,0 +1,62 @@
+/* .voc-view-wrapper {
+  width: 30rem;
+  margin: 0 auto;
+  font-size: 20pt;
+  align-items: center;
+  display: center;
+}
+
+.voc-view-go-list-btn {
+  border: 0;
+  padding: 10px;
+  background-color: #ffd9d9;
+}
+
+.voc-view-row {
+  margin: 10px 0;
+  display: flex;
+}
+
+.voc-view-row > label:first-child {
+  margin: 10px 0;
+  width: 30%;
+  font-weight: bold;
+}
+
+.voc-view-row > *:nth-child(2) {
+  margin: 10px 0;
+  width: 70%;
+} */
+
+.title {
+  font-display: center;
+  font-size: 20pt;
+}
+
+.revise_button {
+  margin-top: 20rem;
+  margin-right: 3rem;
+  display: flex;
+  width: 10rem;
+  height: 4.5rem;
+  border: 2px solid #34495e;
+  justify-content: center;
+  float: left;
+  align-items: center;
+  color: black;
+  font-size: 3rem;
+  font-weight: 500;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #e2f87b;
+  font-size: 5rem;
+  padding: 0.2rem 0 0.2rem 0;
+
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+.revise_button:hover {
+  background-color: white;
+  color: black;
+}

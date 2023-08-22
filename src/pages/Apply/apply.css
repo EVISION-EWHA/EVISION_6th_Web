@@ -1,0 +1,117 @@
+.ApplyInfo,
+.ApplyForm,
+.CheckPw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5rem 5rem 5rem 5rem;
+  flex-direction: column;
+  font-size: 25px;
+  line-height: 4rem;
+  color: white;
+  background-color: black;
+}
+.ApplyInfo h2 {
+  margin-top: 200px;
+}
+
+.ApplyInfo article {
+  width: 100%;
+  font-size: 2.4rem;
+  margin-top: 9rem;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-left: 5rem;
+  padding-left: 5rem;
+}
+
+.apply_btn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.ApplyInfo button,
+.ApplyForm button,
+.CheckPw button {
+  display: flex;
+  width: 28rem;
+  height: 50px;
+  border: 2px solid #34495e;
+  justify-content: center;
+  float: left;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 500;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0.2rem 0 0.2rem 0;
+  margin: 10rem 2rem 17rem 2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.ApplyInfo button:hover,
+.ApplyForm button:hover,
+.CheckPw button:hover {
+  background-color: #e2f87b;
+  color: black;
+}
+
+.ApplyForm form {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 15rem 10rem 20rem;
+}
+
+.ApplyForm textarea {
+  margin-top: 5rem;
+  font-size: 2.3rem;
+  width: 150rem;
+  height: 20rem;
+  border: none;
+  resize: none;
+  color: white;
+  background-color: black;
+}
+
+.ApplyForm input:not([type="radio"], [type="checkbox"]),
+.CheckPw input {
+  font-size: 2.5rem;
+  width: 80rem;
+  height: 5rem;
+  margin-top: 10px;
+  border: none;
+  resize: none;
+  color: white;
+  background-color: black;
+}
+
+.CheckPw input {
+  width: 50rem;
+}
+
+.CheckPw label {
+  font-size: 3rem;
+}
+
+.ApplyForm input[type="radio"],
+[type="checkbox"] {
+  font-size: 2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 15px;
+  color: white;
+  background-color: black;
+}
+
+.ApplyForm p {
+  border: 2px double white;
+  border-style: double;
+  padding: 20px;
+}

@@ -1,0 +1,32 @@
+.voc-question-wrapper {
+  margin: 0 auto;
+  font-size: 4rem;
+  padding: 10rem 10rem 10rem 20rem;
+}
+.revise_button {
+  display: flex;
+  width: 10rem;
+  height: 4.5rem;
+  border: 2px solid #34495e;
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 500;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #e2f87b;
+  font-size: 4rem;
+  padding: 0.2rem 0 0.2rem 0;
+
+  border-radius: 0.8rem;
+  cursor: pointer;
+  margin-top: 10rem;
+}
+.revise_button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contentLabel {
+  font-size: 29rem;
+}
