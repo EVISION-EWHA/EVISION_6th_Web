@@ -6,7 +6,7 @@ const MainRoutes = () => {
   return (
     <Routes>
       <Route path="/*" element={<Landing />} />
-      {/* <Route path="/*" element={<NotFound />} /> */}
+      <Route path="/*" element={<NotFound />} />
     </Routes>
   );
 };

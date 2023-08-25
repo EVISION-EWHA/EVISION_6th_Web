@@ -114,10 +114,7 @@ export default Header;
 //   { name: "Board", link: "/board" },
 // ];
 
-const menus = [
-  { name: "Curriculum", link: "/curriculum" },
-  { name: "Board", link: "/board" },
-];
+const menus = [{ name: "Curriculum", link: "/curriculum" }];
 
 const Logo = styled.div`
   font-size: 4rem;

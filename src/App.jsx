@@ -40,9 +40,9 @@ const App = () => {
         <Route path="/edit/:articleId" element={<RegisterPage></RegisterPage>} />
         <Route path="/post" element={<RegisterPage></RegisterPage>} />
         <Route path="/board" element={<Voc></Voc>}/> */}
-        <Route path="/board" element={<Voc></Voc>} />
+        {/* <Route path="/board" element={<Voc></Voc>} />
         <Route path="/board/:contentId" element={<VocView></VocView>} />
-        <Route path="/board/question" element={<VocQuestion />} />
+        <Route path="/board/question" element={<VocQuestion />} /> */}
         <Route path="/h8Jd62Ks" element={<Admin></Admin>} />
         <Route
           path="/h8Jd62Ks/newmembers"
