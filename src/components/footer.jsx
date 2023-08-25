@@ -21,7 +21,7 @@ const StFooter = styled.div`
   background-color: black;
 
   p {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 30px;
     color: #cccccc;
   }

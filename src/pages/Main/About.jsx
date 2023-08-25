@@ -37,6 +37,7 @@ const S = {
       font-size: 12rem;
       line-height: 12rem;
       font-weight: 600;
+      color: #a1bf9f;
       @media (max-width: 1023px) {
         width: 80%;
         font-size: 10rem;
@@ -44,7 +45,7 @@ const S = {
         font-weight: 600;
       }
       span {
-        color: #e2a600;
+        color: white;
       }
     }
 
@@ -98,15 +99,20 @@ const S = {
     }
   `,
   Label: styled.div`
-    @media (min-width: 1024px) {
-      display: flex;
+    display: flex;
+    @media (max-width: 1023px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
+
     p {
-      font-size: 2.4rem;
+      font-size: 20px;
       line-height: 6rem;
       @media (max-width: 1023px) {
-        font-size: 2rem;
-        line-height: 4rem;
+        width: 100%;
+        font-size: 18px;
+        line-height: 45px;
       }
     }
 
@@ -165,13 +171,15 @@ const About = () => {
         <p>
           EVI$ION은
           <br />
-          엘텍공과대학 소프트웨어학부 사이버보안전공 소속의
+          엘텍공과대학 사이버보안 전공 소속의
           <br />
-          유일한 과동아리이자 오펜시브 시큐리티 동아리입니다
+          유일한 과동아리이자 해킹 동아리입니다
           <br />
           6기수째 사이버보안 벗들을 중심으로
           <br />
-          사이버보안 전공의 학술적인 발전을 도모하고 있습니다
+          offensive security를 중점으로한
+          <br />
+          학술적인 발전을 도모하고 있습니다
         </p>
       </S.Label>
     </S.Wrapper>

@@ -27,46 +27,46 @@ const S = {
     background-color: black;
     color: white;
     text-align: center;
-    line-height: 9rem;
+    line-height: 90px;
   `,
   Label: styled.div`
     width: 90%;
     @media (min-width: 1024px) {
       display: flex;
       justify-content: center;
-      gap: 20rem;
+      gap: 200px;
     }
     b {
-      font-size: 5rem;
+      font-size: 50px;
       font-weight: 500;
-      line-height: 5rem;
+      line-height: 50px;
 
       @media (max-width: 1023px) {
-        font-size: 4rem;
+        font-size: 40px;
         font-weight: 500;
-        line-height: 4rem;
+        line-height: 40px;
       }
     }
     p {
-      border-radius: 2rem;
-      font-size: 2.4rem;
-      line-height: 5rem;
+      border-radius: 20px;
+      font-size: 24px;
+      line-height: 50px;
       @media (min-width: 1023px) {
         background-color: rgb(255, 255, 255, 0.1);
-        padding: 4rem;
+        padding: 40px;
       }
     }
 
     .career {
       background-color: rgb(255, 255, 255, 0.1);
-      border-radius: 4rem;
+      border-radius: 40px;
       @media (min-width: 1023px) {
         width: 50%;
-        padding: 6rem;
+        padding: 60px;
       }
       @media (max-width: 700px) {
         width: 90%;
-        padding: 3rem;
+        padding: 30px;
       }
     }
 
@@ -78,20 +78,19 @@ const S = {
     }
 
     h3 {
-      font-size: 2rem;
-      line-height: 5rem;
+      font-size: 20px;
+      line-height: 50px;
       font-weight: 400;
     }
 
     .award {
-      font-size: 2rem;
-      padding: 4rem;
-      line-height: 4rem;
       @media (max-width: 1023px) {
-        border-radius: 2rem;
-        font-size: 1.5rem;
-        line-height: 3rem;
+        font-size: 18px;
+        line-height: 40px;
       }
+      font-size: 20px;
+      line-height: 40px;
+      padding: 40px;
     }
   `,
   Article: styled.article`
@@ -103,18 +102,18 @@ const S = {
 
     nav {
       @media (max-width: 1023px) {
-        gap: 2rem;
-        font-size: 1.5rem;
-        line-height: 3rem;
-        margin-bottom: 1rem;
+        gap: 20px;
+        font-size: 15px;
+        line-height: 30px;
+        margin-bottom: 10px;
       }
       display: flex;
       width: 90%;
       justify-content: center;
-      gap: 3rem;
-      font-size: 2.3rem;
-      line-height: 3.5rem;
-      margin-bottom: 2rem;
+      gap: 30px;
+      font-size: 23px;
+      line-height: 35px;
+      margin-bottom: 20px;
       div {
         &:hover {
           cursor: pointer;
@@ -127,70 +126,73 @@ const S = {
       justify-content: center;
       align-items: center;
       background-color: rgb(255, 255, 255, 0.15);
-      border-radius: 1.5rem;
+      border-radius: 15px;
       width: 70%;
-      padding: 2rem;
+      padding: 20px;
     }
+
     section > img {
       width: 90%;
-      height: 60rem;
-      margin-bottom: 1rem;
+      height: 600px;
+      margin-bottom: 10px;
       @media (max-width: 1023px) {
-        height: 20rem;
+        height: 200px;
       }
     }
     section > p {
       @media (max-width: 1023px) {
-        gap: 2rem;
-        font-size: 1.5rem;
-        line-height: 3rem;
-        margin-bottom: 1rem;
+        width: 90%;
+        gap: 20px;
+        font-size: 18px;
+        line-height: 40px;
+        margin-bottom: 10px;
+        word-break: break-all;
       }
       width: 90%;
-      font-size: 2.3rem;
-      line-height: 3.5rem;
+      font-size: 23px;
+      line-height: 35px;
     }
   `,
   Title: styled.p`
-    font-size: 6rem;
+    font-size: 60px;
     font-weight: 600;
-    margin-top: 20rem;
-    margin-bottom: 2rem;
+    margin-top: 200px;
+    margin-bottom: 20px;
     @media (max-width: 1023px) {
-      margin-top: 10rem;
-      margin-bottom: 5rem;
+      margin-top: 100px;
+      margin-bottom: 50px;
 
-      font-size: 5rem;
-      line-height: 6rem;
+      font-size: 50px;
+      line-height: 60px;
       font-weight: 500;
-      margin-top: 8rem;
-      margin-bottom: 5rem;
+      margin-top: 80px;
+      margin-bottom: 50px;
     }
   `,
   Subtitle: styled.p`
-    font-size: 5rem;
+    font-size: 50px;
     font-weight: 500;
-    margin-top: 8rem;
-    margin-bottom: 3rem;
+    margin-top: 80px;
+    margin-bottom: 30px;
     @media (max-width: 1023px) {
-      margin-top: 7rem;
-      margin-bottom: 2rem;
+      margin-top: 70px;
+      margin-bottom: 20px;
 
-      font-size: 3rem;
-      line-height: 4rem;
+      font-size: 30px;
+      line-height: 40px;
       font-weight: 400;
     }
   `,
   Button: styled.div`
     background-color: white;
     color: black;
-    padding: 5% 5rem;
-    margin-top: 10rem;
-    border-radius: 0.8rem;
+    padding: 5% 50px;
+    margin-top: 100px;
+    border-radius: 8px;
 
-    font-size: 2.4rem;
+    font-size: 24px;
     font-weight: 400;
-    line-height: 4rem;
+    line-height: 40px;
 
     &:hover {
       background-color: green;
@@ -216,7 +218,7 @@ const Result = () => {
             }
             onClick={() => setFirstOpt("1")}
           >
-            정규세션+심화세션
+            정규,심화세션
           </div>
           <div
             style={
@@ -246,7 +248,7 @@ const Result = () => {
             }
             onClick={() => setFirstOpt("4")}
           >
-            겨울방학활동
+            겨울방학
           </div>
           <div
             style={
@@ -256,7 +258,7 @@ const Result = () => {
             }
             onClick={() => setFirstOpt("5")}
           >
-            ETC.
+            ETC
           </div>
         </nav>
         <section
@@ -348,7 +350,7 @@ const Result = () => {
             }
             onClick={() => setSecondOpt("4")}
           >
-            여름방학활동
+            여름방학
           </div>
           <div
             style={
@@ -358,7 +360,7 @@ const Result = () => {
             }
             onClick={() => setSecondOpt("5")}
           >
-            ETC.
+            ETC
           </div>
         </nav>
         <section
