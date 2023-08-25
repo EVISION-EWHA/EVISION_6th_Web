@@ -277,7 +277,7 @@ const Result = () => {
           <img src={ctf} alt="" />
           <p>
             세션 + 심화스터디를 통해 배운것을 바탕으로
-            문제출제(web/pwnable/reversing/forensic), ctf 구축 등<br />
+            문제출제(web/crypto/forensic/pwnable), ctf 구축 등<br />
             동아리내에서 대회 개최, 모든 부원이 참여한 EVI$ION 내부 CTF
           </p>
         </section>

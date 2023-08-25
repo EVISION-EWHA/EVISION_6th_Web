@@ -11,13 +11,13 @@ const CurriculumPage = () => {
     <Wrapper>
       <StTitle>2023-2 커리큘럼</StTitle>
       <StContent>
-        이번 세션은 전체세션과 심화세션 총 두가지입니다. <br />
+        이번 세션은 전체세션과 러닝세션 총 두가지입니다. <br />
         전체 세션(목요일 18:30 ~ 20:30)의 스케줄은 아래와 같습니다
       </StContent>
       <img src={curriculum} class="flag" alt="" />
       <StContent>
-        심화세션은 보다 심화된 공부를 위한 시간입니다. <br />
-        - 토요일 9~21 중에서 5시간 이상 참여해야합니다
+        러닝세션은 보다 심화된 공부를 위한 시간입니다. <br />
+        - 토요일 9to21 중 5시간 이상 참여해야합니다
         <br />- 매주가 아닌 월 2회 이상 필참입니다
       </StContent>
     </Wrapper>
